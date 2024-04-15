@@ -7,7 +7,7 @@ def load_data() -> dict:
     training_data = [[1, 2], [3, 4], [5, 6]]
     labels = [0, 1, 0]
     
-    return {'features': training_data, 'labels': labels}
+    return {'features1': training_data, 'labels': labels}
 
 @step
 def train_model(data: dict) -> None:
@@ -30,5 +30,4 @@ def simple_ml_pipeline():
 if __name__ == "__main__":
     run = simple_ml_pipeline()
     print('hi')
-    asfsa
     # You can now use the `run` object to see steps, outputs, etc.
