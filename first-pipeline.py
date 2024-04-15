@@ -29,4 +29,5 @@ def simple_ml_pipeline():
 
 if __name__ == "__main__":
     run = simple_ml_pipeline()
+    print('hi')
     # You can now use the `run` object to see steps, outputs, etc.
